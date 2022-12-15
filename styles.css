@@ -1,2 +1,11 @@
+.grid_container{
+    height: 200px;
+    width: 200px;
+    border: 1px solid black;
+    display: grid;
+    grid-template-columns: repeat(2,100px);
+}
 
-/* Your CSS Code here. */
+.grid_item{
+    border: 1px solid black;
+}
